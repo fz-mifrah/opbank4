@@ -27,7 +27,7 @@ entity Client {
 
 entity Compte {
 	rib Long required,
-    dateOuverture LocalDate ,
+    dateOuverture LocalDate,
     code Integer required
 }
 
@@ -38,7 +38,7 @@ entity Banque {
 }
 
 entity CarteBancaire {
-	numCarte String required,
+	numCarte String required
     
 }
 enum TypeOperation {
@@ -52,7 +52,7 @@ enum EtatOperation {
 entity Operation {
 	numOperation String required,
     date LocalDate,
-    typeOperatin TypeOperation ,
+    typeOperatin TypeOperation,
     etatOperation EtatOperation,
     montant Double required
 }
@@ -79,7 +79,7 @@ entity Transfer {
 }
 
 entity Recharge {
-    numTel Long required,
+    numTel Long required
 }
 
 entity Operateur {
@@ -113,7 +113,7 @@ relationship OneToMany {
 
 relationship ManyToMany {
 	Recharge{operateur(nomOp)} to Operateur{recharge},
-    PaimentFacture{service(nomService)} to Service{paimentFacture},
+    PaimentFacture{service(nomService)} to Service{paimentFacture}
     
 }
 
