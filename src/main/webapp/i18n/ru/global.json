@@ -7,19 +7,6 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Сущности",
-        "client": "Client",
-        "compte": "Compte",
-        "banque": "Banque",
-        "carteBancaire": "Carte Bancaire",
-        "operation": "Operation",
-        "virement": "Virement",
-        "beneficiaire": "Beneficiaire",
-        "destinataire": "Destinataire",
-        "transfer": "Transfer",
-        "recharge": "Recharge",
-        "operateur": "Operateur",
-        "paimentFacture": "Paiment Facture",
-        "service": "Service",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {
